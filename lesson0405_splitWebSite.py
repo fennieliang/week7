@@ -23,7 +23,7 @@ tt2=tt[1].split('<div style="display:none;">')
 #calculate the length of the first part of the second split
 print(len(tt2[0]))
 
-#remove everythin before <strong> from the above
+#remove everything before <strong> from the above
 new_t = re.sub('(.*?)<strong>', '', tt2[0])
 
 #check the new length

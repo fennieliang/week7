@@ -10,6 +10,14 @@ extract yahoo stock
 
 
 #pip install selenium
+#for using webdriver you need to download chrome driver first
+#first check your chrome version
+#open chrome click the top left chrome>about google chrome
+#get your own chrome version then go to the following page
+#https://chromedriver.chromium.org/downloads
+#select the right verison to download
+#put the driver in your preferred folder as the following example path
+
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
