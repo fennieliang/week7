@@ -6,17 +6,27 @@ Created on Fri Oct 22 14:28:30 2021
 @author: fennieliang
 """
 #pip install flask-moment
-#open terminal for mac type
-#export FLASK_APP=lesson0410_flask3.py
+'''
+for running flask:
+first make sure your previous running program
+is stopped by using control c on the terminal, 
+or click on the red button on the spyder console
 
-#for windows type
-#set FLASK_APP=lesson0410_flask3.py
+from terminal:
+1.on mac type
+  export FLASK_APP=lesson0410_flask3.py
 
-#flask run
+or on windows type
+  set FLASK_APP=lesson0410_flask3.py
+
+2. type flask run
+3. copy and paste the result server address to 
+   a browser
+
+'''
 
 
 from flask import Flask, render_template
-#from flask_moment import Moment
 from datetime import datetime
 
 

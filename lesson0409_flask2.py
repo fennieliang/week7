@@ -5,14 +5,24 @@ Created on Fri Oct 22 14:28:30 2021
 
 @author: fennieliang
 """
+'''
+for running flask:
+first make sure your previous running program
+is stopped by using control c on the terminal, 
+or click on the red button on the spyder console
 
-#open terminal for mac type
-#export FLASK_APP=lesson0409_flask2.py
+from terminal:
+1.on mac type
+  export FLASK_APP=lesson0409_flask2.py
 
-#for windows type
-#set FLASK_APP=lesson0409_flask2.py
+or on windows type
+  set FLASK_APP=lesson0409_flask2.py
 
-#flask run
+2. type flask run
+3. copy and paste the result server address to 
+   a browser
+
+'''
 
 
 from flask import Flask, render_template
@@ -20,7 +30,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index2.html")
     #when using render_template the index.html file 
     #needs to be placed in templates of current folder as /templates/index.html
 
